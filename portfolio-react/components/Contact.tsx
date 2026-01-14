@@ -1,4 +1,5 @@
 // components/Contact.js
+"use client";
 export default function Contact() {
     const scriptURL = "https://script.google.com/macros/s/AKfycbzll7wOMtERJa3chSrx1oNG6esgJyNNa2ekK2juxh5JeVy5JYKEo-L83sqExyCi5eTZkw/exec";
 
