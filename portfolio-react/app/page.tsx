@@ -1,9 +1,17 @@
+import Header from "@/components/Header";
+import About from "@/components/About";
+import Services from "@/components/Services";
+import Work from "@/components/Work";
+import Contact from "@/components/Contact";
+
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black flex items-center justify-center">
-      <h1 className="text-5xl font-bold text-blue-400">
-        Tailwind is working 🎉
-      </h1>
+    <main className="bg-black text-white">
+      <Header />
+      <About />
+      <Services />
+      <Work />
+      <Contact />
     </main>
   );
 }
